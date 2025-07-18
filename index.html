@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>JavaScript | Proyecto Final | Autogestión</title>
+</head>
+
+<body>
+    <div class="presentacion-top">
+        <h1>Simulador Proyecto Final</h1>
+    </div>
+    <div class="presentacion-bottom">
+        <section>
+            <h2>En este simulador podrás realizar consultas de autogestión relacionadas a las líneas móviles registradas
+                en
+                una
+                lista y realizar las siguientes operaciones:</h2>
+            <h3>Consulta de saldo; Recarga de saldo; Compra de Packs de Internet; Visualizar un historial de compra de
+                packs.
+            </h3>
+            <h4>Los números de línea ficticios con los que podrás ingresar son:</h4>
+            <ul>
+                <li>1234567890</li>
+                <li>2345678901</li>
+                <li>3456789012</li>
+                <li>4567890123</li>
+            </ul>
+            <section id="login">
+                <input type="text" id="lineaInput" placeholder="Ingresá tu número de línea">
+                <button id="btnLogin">Ingresar</button>
+            </section>
+        </section>
+    </div>
+    <div class="mainMenuContainer" id="menuPrincipal" style="display:none">
+        <div class="mainMenuTop">
+            <h2>Menú Principal</h2>
+            <div id="resultadoValidacion">
+                <p></p>
+            </div>
+        </div>
+        <div class="mainMenuBottom">
+            <button id="btnConsultaDeSaldo" class="btn-mainMenu">Consultar
+                saldo</button>
+            <button id="btnRecargaDeSaldo" class="btn-mainMenu">Recargar saldo</button>
+            <button id="btnComprarPacks" class="btn-mainMenu">Comprar packs</button>
+            <button id="btnVisualizarHistorialDePacks" class="btn-mainMenu">Ver historial de packs</button>
+            <button id="btnVerTiendaEquipos" class="btn-mainMenu">Tienda de Equipos</button>
+            <button id="btnLogOut" class="btn-mainMenu">Salir</button>
+        </div>
+        <div id="mensajeMenu"></div>
+    </div>
+    
+    <div id="recargaContainer" style="display: none;">
+        <h3>🤑 Seleccioná un monto para recargar:</h3>
+        <select id="montoRecargaSelect">
+            <option value="">-- Seleccionar monto --</option>
+            <option value="1000">$1.000</option>
+            <option value="2000">$2.000</option>
+            <option value="3000">$3.000</option>
+            <option value="4000">$4.000</option>
+            <option value="10000">$10.000</option>
+        </select>
+        <button class="btn-option" id="btnRecargarSaldo">Realizar recarga</button>
+    </div>
+    <div id="mensajeResultado" style="margin-top: 20px; font-weight: bold;"></div>
+    <section id="packsContainer" style="display: none; margin-top: 15px;">
+    </section>
+    
+    <div id="resultadoOperacionContainer" class="resultado-operacion-container">
+    </div>
+    
+    <section id="historialPacks" style="display:none"></section>
+    <div id="tiendaEquiposContainer" style="display:none">
+        <button id="btnVerCarrito" class="btnInternoTienda">Ver Carrito <span id="contadorCarrito">(0)</span></button>
+        <button id="btnVerHistorialComprasEquipos" class="btnInternoTienda">Ver historial de Compra de Equipos</button>
+        <h3>Catálogo de equipos</h3>
+        <div id="equiposListado"></div>
+    </div>
+    <div id="carritoContainer" style="display:none">
+        <h3>🛒Carrito de Compras</h3>
+        <div id="listaCarrito">
+            <p class="carrito-vacio-mensaje">Tu carrito está vacío.</p>
+        </div>
+        <div class="resumen-carrito">
+            <div class="descuento-seccion">
+                <label for="codigoDescuentoInput">Código de descuento:</label>
+                <input type="text" id="codigoDescuentoInput" placeholder="Ingresa tu código">
+                <button id="btnAplicarDescuento">Aplicar</button>
+            </div>
+            <p>Subtotal: $<span id="subtotalCarrito">0</span></p>
+            <p>Descuento: $<span id="descuentoAplicado">0</span></p>
+            <h4>Total a pagar: $<span id="totalPagar">0</span></h4>
+        </div>
+        <div class="acciones-carrito">
+            <button id="btnFinalizarCompra">Finalizar Compra</button>
+            <button id="btnVaciarCarrito" class="btn-rojo">Vaciar Carrito</button>
+            <button id="btnVolverTiendaDesdeCarrito">Volver a la Tienda</button>
+        </div>
+    </div>
+    <div id="historialComprasEquiposContainer" style="display: none;">
+        <h2>Historial de Compras de Equipos</h2>
+        <div id="historialEquiposListado">
+        </div>
+        <button id="btnVolverATiendaDesdeHistorialEquipos">Volver a la Tienda</button>
+    </div>
+    <script type="module" src="./js/main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,110 @@
+[
+    {
+        "id": 1,
+        "brand": "Samsung",
+        "name": "Galaxy A15 128GB 4G",
+        "model": "SM-A155M",
+        "color": "Azul Oscuro",
+        "mobileNetwork": "4G",
+        "capacity": 128,
+        "price": 299999,
+        "stock": 120,
+        "image": "./assets/equipos/samsung-a15-blueblack-front.png"
+    },
+    {
+        "id": 2,
+        "brand": "Samsung",
+        "name": "Galaxy A06 128GB 4G",
+        "model": "SM-A065M-128",
+        "color": "Negro",
+        "mobileNetwork": "4G",
+        "capacity": 128,
+        "price": 229999,
+        "stock": 146,
+        "image": "./assets/equipos/samsung-a06-black-front.png"
+    },
+    {
+        "id": 3,
+        "brand": "Samsung",
+        "name": "Galaxy S25 Ultra 5G",
+        "model": "SM-S938B",
+        "color": "Titanium Black",
+        "mobileNetwork": "5G",
+        "capacity": 256,
+        "price": 3499999,
+        "stock": 7,
+        "image": "./assets/equipos/samsung-galaxy-s25-ultra-titaniumblack.webp"
+    },
+    {
+        "id": 4,
+        "brand": "Apple",
+        "name": "iPhone 14 128GB 5G",
+        "model": "A2882",
+        "color": "Starlight",
+        "mobileNetwork": "5G",
+        "capacity": 128,
+        "price": 2199999,
+        "stock": 11,
+        "image": "./assets/equipos/iphone-14-starlight.webp"
+    },
+    {
+        "id": 5,
+        "brand": "Motorola",
+        "name": "Moto Razr 50 Ultra 512GB 5G",
+        "model": "XT2451-3",
+        "color": "Midnight Blue",
+        "mobileNetwork": "5G",
+        "capacity": 512,
+        "price": 1429999,
+        "stock": 13,
+        "image": "./assets/equipos/motorola-razr-50-ultra.webp"
+    },
+    {
+        "id": 6,
+        "brand": "Motorola",
+        "name": "Moto Edge 50 5G",
+        "model": "XT2407-2",
+        "color": "Koala Grey",
+        "mobileNetwork": "5G",
+        "capacity": 256,
+        "price": 699999,
+        "stock": 24,
+        "image": "./assets/equipos/moto-edge-50-5g-koalagray-front.png"
+    },
+    {
+        "id": 7,
+        "brand": "ZTE",
+        "name": "Blade A75 256GB 5G",
+        "model": "Z2357N-F",
+        "color": "Diamond Black",
+        "mobileNetwork": "5G",
+        "capacity": 256,
+        "price": 299999,
+        "stock": 41,
+        "image": "./assets/equipos/zte-blade-a75-5g.webp"
+    },
+        {
+        "id": 8,
+        "brand": "ZTE",
+        "name": "Nubia Neo 2 Gamer 256GB 5G",
+        "model": "Z2352N",
+        "color": "Negro",
+        "mobileNetwork": "5G",
+        "capacity": 256,
+        "price": 349999,
+        "stock": 19,
+        "image": "./assets/equipos/nubia-neo-2-gamer.webp"
+    },
+            {
+        "id": 9,
+        "brand": "Xiaomi",
+        "name": "Redmi Note 13 4G",
+        "model": "N7L",
+        "color": "Negro",
+        "mobileNetwork": "4G",
+        "capacity": 128,
+        "price": 499999,
+        "stock": 77,
+        "image": "./assets/equipos/xiaomi-redmi-note-13.webp"
+    }
+]

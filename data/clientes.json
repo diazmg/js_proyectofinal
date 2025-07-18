@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "nombre": "Sofia",
+        "apellido": "Perez",
+        "recurso": "1234567890",
+        "tipoPlan": "Prepago",
+        "datosDisponibles": 5.0,
+        "datosRoaming": 0.0,
+        "monederoPrepago": 2500,
+        "monederoAbono": 0,
+        "historialCompraPacks": []
+    },
+    {
+        "id": 2,
+        "nombre": "Luciano",
+        "apellido": "Diaz",
+        "recurso": "2345678901",
+        "tipoPlan": "Control",
+        "datosDisponibles": 1.5,
+        "datosRoaming": 0.0,
+        "monederoPrepago": 5000,    
+        "monederoAbono": 50,
+        "historialCompraPacks": []
+    },
+    {
+        "id": 3,
+        "nombre": "Fernanda",
+        "apellido": "Gutierrez",
+        "recurso": "3456789012",
+        "tipoPlan": "Libre",
+        "datosDisponibles": 10.0,
+        "datosRoaming": 0.0,
+        "monederoPrepago": 0,
+        "monederoAbono": 999999,
+        "historialCompraPacks": []
+    },
+    {
+        "id": 4,
+        "nombre": "Marcos",
+        "apellido": "Diaz",
+        "recurso": "4567890123",
+        "tipoPlan": "Postpago",
+        "datosDisponibles": 5.0,
+        "datosRoaming": 0.0,
+        "monederoPrepago": 0,
+        "monederoAbono": 50,
+        "historialCompraPacks": []
+    }
+]

@@ -1,0 +1,62 @@
+{
+    "nacionales": [
+        {
+            "id": 1,
+            "nombre": "3GB x 5 días",
+            "gigas": 3.0,
+            "duracion": 5,
+            "precio": 3500
+        },
+        {
+            "id": 2,
+            "nombre": "5GB x 7 días",
+            "gigas": 5.0,
+            "duracion": 7,
+            "precio": 5000
+        },
+        {
+            "id": 3,
+            "nombre": "10GB x 7 días",
+            "gigas": 10,
+            "duracion": 7,
+            "precio": 5000
+        },
+        {
+            "id": 4,
+            "nombre": "15GB x 10 días",
+            "gigas": 15,
+            "duracion": 10,
+            "precio": 7000
+        }
+    ],
+    "roaming": [
+        {
+            "id": 1,
+            "nombre": "5GB América x 7 días",
+            "gigas": 5,
+            "duracion": 7,
+            "precio": 14000
+        },
+        {
+            "id": 2,
+            "nombre": "8GB América x 14 días",
+            "gigas": 8,
+            "duracion": 14,
+            "precio": 20000
+        },
+        {
+            "id": 3,
+            "nombre": "8GB Mundo x 14 días",
+            "gigas": 8,
+            "duracion": 14,
+            "precio": 20000
+        },
+        {
+            "id": 4,
+            "nombre": "15GB Mundo x 30 días",
+            "gigas": 15,
+            "duracion": 30,
+            "precio": 30000
+        }
+    ]
+}
