@@ -14,7 +14,7 @@ Esta aplicación web simula las funcionalidades clave de un operador de telefon�
 * **Tienda de Equipos:**
     * Exploración y adición de dispositivos móviles al carrito de compras.
     * Gestión de cantidades en el carrito y validación de stock.
-    * Aplicación de códigos de descuento.
+    * Aplicación de códigos de descuento: "PROYECTOFINAL"; "SUPERSALE"; "DOSPORUNO" en compras de mas de $500.000.
     * Proceso de finalización de compra (simulado).
     * Registro y consulta del historial de compras de equipos.
 * **Persistencia de Datos:** Utiliza `localStorage` para mantener la sesión del usuario activo, así como los datos de los equipos y packs disponibles, incluso después de recargar la página.
