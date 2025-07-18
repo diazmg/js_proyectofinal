@@ -67,12 +67,4 @@ export class Equipo {
     mostrarDetalles() {
         return `${this.brand} ${this.name} (${this.color}, ${this.capacity}GB) - Precio: $${this.price}`;
     }
-
-    descontarStock(cantidad = 1) {
-        if (this.stock >= cantidad) {
-            this.stock -= cantidad;
-            return true;
-        }
-        return false;
-    }
 }
